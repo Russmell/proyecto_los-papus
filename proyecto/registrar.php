@@ -1,6 +1,6 @@
 <?php
-require_once('../conexion.php');
-require_once('../clases/Usuario.php');
+require_once('conexion.php');
+require_once('clases/Usuario.php');
 
 $usuario = new Usuario($conexion);
 
